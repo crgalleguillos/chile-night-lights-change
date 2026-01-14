@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data (do not commit large files)
+data/raw/
+data/interim/
+data/processed/
+
+# Credentials / secrets
+*.env
+.env

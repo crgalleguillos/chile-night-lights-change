@@ -1,0 +1,19 @@
+name: chile-night-lights-change
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - geopandas
+  - rasterio
+  - rioxarray
+  - xarray
+  - shapely
+  - pyproj
+  - fiona
+  - tqdm
+  - pip
+  - pip:
+      - earthaccess
