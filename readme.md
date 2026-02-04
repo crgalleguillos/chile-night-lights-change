@@ -4,6 +4,13 @@
 This project analyzes **changes in nighttime light intensity across Chile** using NASA’s **VIIRS Black Marble** monthly product (**VNP46A3**).  
 The workflow builds **annual mean composites** for **2014, 2019, and 2024**, standardizes them for comparability, computes **pixel-wise changes (deltas)** between periods, and summarizes results at the **regional (Admin-1) level**.
 
+## Project access
+
+- **Jupyter Notebook:** `notebooks/01_chile_night_lights_change.ipynb`
+- **Web report (HTML):** https://crgalleguillos.github.io/chile-night-lights-change/
+
+The HTML version provides comfortable reading and full navigation, and is recommended for a general overview of the project and results.
+
 ## Objective
 - Produce annual nighttime-lights composites for **2014, 2019, 2024**
 - Detect spatial change using:
